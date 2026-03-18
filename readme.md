@@ -49,7 +49,7 @@ El objetivo es practicar **consultas parametrizadas** con `pg` para prevenir iny
 
 
 # Notas 
-- Para probar la conección a postgress, la tabla de este ejercicio es clientes_t2, ya que este proyecto esta dentro de la base de datos finanzas_m7 y si lista clientes saldra la tabla del ejercicio anterior.
+- Para probar la conección a postgress, la tabla de este ejercicio es **clientes_t2**, ya que este proyecto esta dentro de la base de datos **finanzas_m7** y si listas clientes saldra otra tabla.
 - Las consultas se realizan con parametrización usando $1, $2, etc., para evitar inyección SQL.
 - Se manejan correctamente errores comunes: RUT duplicado, cliente no encontrado, datos incompletos y errores de conexión.
 
